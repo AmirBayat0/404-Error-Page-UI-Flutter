@@ -17,9 +17,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: '404 Error',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
       home: ErrorPage(),
     );
   }
